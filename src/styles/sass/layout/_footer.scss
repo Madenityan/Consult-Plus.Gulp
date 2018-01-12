@@ -1,0 +1,116 @@
+.footer-top {
+  background-color: $black;
+  padding: 100px 0 100px;
+}
+
+.menu-footer {
+  font-family: 'Montserrat', sans-serif;
+
+   a {
+    font-size: 13px;
+    text-transform: uppercase;
+    color:$grey;
+    line-height: 25px;
+     font-weight: bold;
+  }
+
+  a:hover {
+    color:$grey;
+  }
+}
+
+.menu-footer, .subscribe-footer {
+
+  li {
+      h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      color:$white-color;
+      text-transform: uppercase;
+      margin-bottom: 35px;
+    }
+  }
+}
+
+.subscribe-footer {
+  p {
+    width: 350px;
+    margin-bottom: 40px;
+  }
+}
+
+.category-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facebook {
+  color: $blue-2;
+}
+
+.facebook:hover {
+  color: $blue-2;
+}
+
+.twitter {
+  color: $blue-color;
+}
+
+.twitter:hover {
+  color: $blue-color;
+}
+
+.instagram {
+  color: $yellow-color;
+}
+
+.instagram:hover {
+  color: $yellow-color;
+}
+
+.linkedin {
+  color: $blue-color;
+}
+
+.linkedin:hover {
+  color: $blue-color;
+}
+
+.google {
+   color: $red-color;
+ }
+
+.google:hover {
+  color: $red-color;
+}
+
+.social {
+
+  a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 40px;
+  }
+
+  a:last-child {
+    margin-right: 0;
+  }
+}
+
+.footer-bottom {
+    padding: 0 0 50px;
+    background-color: $black;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    border-top: 1px solid $grey;
+
+  }
+}
+
+

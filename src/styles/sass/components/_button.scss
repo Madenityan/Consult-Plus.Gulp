@@ -1,0 +1,53 @@
+.btn-section{
+  padding: 15px 25px;
+  background-color: $color-green;
+  border-radius: 30px;
+  text-decoration: none;
+  outline: none;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: $white-color;
+}
+
+a:hover{
+  text-decoration: none;
+  color: $white-color;
+}
+
+.wrapper-btn {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+
+.btn-transparent {
+  background-color: transparent;
+  border: 2px solid $orange-color;
+  padding: 10px 20px;
+  position: absolute;
+  margin: 20px 20px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.btn-form {
+  border: none;
+  margin-left: -70px;
+  padding: 19px 25px;
+  font-weight: bold;
+}
+
+.btn-consultation {
+  margin-top: 50px;
+}
+
+.btn-about {
+  margin-top: 40px;
+}
+
+.btn-cards {
+  padding: 15px 38px;
+}

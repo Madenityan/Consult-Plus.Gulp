@@ -1,0 +1,30 @@
+.banking-card {
+  width: 356px;
+  margin-right: 25px;
+
+
+
+  img {
+    display: block;
+  }
+}
+
+.comment-card {
+  padding: 40px 30px 50px;
+  background-color: $orange-color;
+  color: $white-color;
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: 'Domine', serif;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}

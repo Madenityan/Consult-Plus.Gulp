@@ -1,0 +1,53 @@
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/slick-carousel/slick/slick.css";
+@import "../../../node_modules/slick-carousel/slick/slick-theme.css";
+
+$fa-font-path: '../../../node_modules/font-awesome/fonts';
+@import '../../../node_modules/font-awesome/scss/font-awesome';
+
+@import 'reset';
+
+@import 'base/variables';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/common';
+
+
+
+@import 'components/icon';
+@import 'components/jumbotron';
+@import 'components/slider';
+@import 'components/header-section';
+@import 'components/button';
+@import 'components/cards';
+@import 'components/form';
+@import 'components/accordion';
+
+
+
+
+
+
+
+
+//FONTS
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Domine');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

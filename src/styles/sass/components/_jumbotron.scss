@@ -1,0 +1,25 @@
+.jumbotron {
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-jumbotron {
+  text-align: center;
+  margin-top: 160px;
+
+}
+
+.display-4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: $white-color;
+  line-height: 35px;
+
+}
+
+.lead {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
