@@ -31,3 +31,19 @@
   padding: 30px 150px 0 0;
 }
 
+.icon-state:after {
+  font-family: 'Montserrat', sans-serif;
+  content: '+';
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  color:$black-color;
+  float: right;
+}
+
+.icon-state[aria-expanded="true"]:after {
+  content: '-';
+}
+
+
+

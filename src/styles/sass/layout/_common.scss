@@ -311,7 +311,11 @@
   margin-top: 75px;
 }
 
-.contact {
+.list-contact {
+  display: flex;
+  justify-content: space-around;
+
+
   h3 {
     margin-bottom: 10px;
   }
@@ -333,8 +337,6 @@
   width: 58px;
   height: 59px;
   display: block;
-  position: absolute;
-  margin-left: -90px;
 }
 
 .contact-email:before {
@@ -347,11 +349,6 @@
 
 .contact-carrer:before {
   background: url(../../img/icon-career.png);
-}
-
-.wrapper-contact {
-  display: flex;
-  justify-content: space-around;
 }
 
 .wrapper-page {
@@ -571,4 +568,59 @@
 .questions {
   background-color: $light-blue;
   padding: 100px 0 100px;
+}
+
+.location {
+  padding: 100px 0 100px;
+}
+
+.list-location {
+
+  li {
+    display: flex;
+  }
+
+  .wrapper-location {
+     margin:0 0 27px 30px;
+
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      text-transform: uppercase;
+      color:$black-color;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  }
+
+  li:last-child .wrapper-location {
+     margin:0 0 0 40px;
+  }
+}
+
+.connect {
+  width: 260px;
+}
+
+.information-contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.write-to-us {
+  padding: 100px 0 100px;
+  background-color:$light-blue;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper-left {
+  margin-right: 30px;
+}
+
+.wrapper-left, .wrapper-right {
+  width: 48%;
 }
