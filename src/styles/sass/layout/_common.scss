@@ -624,3 +624,90 @@
 .wrapper-left, .wrapper-right {
   width: 48%;
 }
+
+.clients {
+  padding: 100px 0 100px;
+
+  .header-left {
+    margin-bottom: 55px;
+  }
+}
+
+.img-clients {
+  margin-right: 35px;
+
+  img {
+    border-radius: 50%;
+  }
+}
+
+.list-clients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+  li {
+    width: 47%;
+    display: flex;
+    margin-bottom:90px
+  }
+
+  li:nth-last-child(-n+2) {
+    margin-bottom: 0;
+  }
+}
+
+.quote-clients {
+
+  blockquote:after {
+    content: "";
+    background-repeat: no-repeat;
+    display: block;
+    width: 17px;
+    height: 13px;
+    background: url(../../img/icon-quote.png);
+    margin-top: 30px;
+    float: right;
+  }
+}
+
+.text-slide-testimonials {
+  width: 460px;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+
+
+  .text-section, .client-name {
+    color: $white-color;
+  }
+
+  .designation {
+    color:$white-color;
+  }
+
+  .text-section:before {
+    content: "";
+    background-repeat: no-repeat;
+    display: block;
+    width: 46px;
+    height: 31px;
+    background: url(../../img/icon-quote-2.png);
+    position: relative;
+    right: 70px;
+    top: 30px;
+  }
+
+  .text-section:after {
+    content: "";
+    background-repeat: no-repeat;
+    display: block;
+    width: 44px;
+    height: 31px;
+    background: url(../../img/icon-quote-3.png);
+    position: relative;
+    left: 480px;
+  }
+
+}

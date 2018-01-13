@@ -11883,6 +11883,79 @@ table {
   width: 48%;
 }
 
+.clients {
+  padding: 100px 0 100px;
+}
+.clients .header-left {
+  margin-bottom: 55px;
+}
+
+.img-clients {
+  margin-right: 35px;
+}
+.img-clients img {
+  border-radius: 50%;
+}
+
+.list-clients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.list-clients li {
+  width: 47%;
+  display: flex;
+  margin-bottom: 90px;
+}
+.list-clients li:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+
+.quote-clients blockquote:after {
+  content: "";
+  background-repeat: no-repeat;
+  display: block;
+  width: 17px;
+  height: 13px;
+  background: url(../../img/icon-quote.png);
+  margin-top: 30px;
+  float: right;
+}
+
+.text-slide-testimonials {
+  width: 460px;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+}
+.text-slide-testimonials .text-section, .text-slide-testimonials .client-name {
+  color: #ffffff;
+}
+.text-slide-testimonials .designation {
+  color: #ffffff;
+}
+.text-slide-testimonials .text-section:before {
+  content: "";
+  background-repeat: no-repeat;
+  display: block;
+  width: 46px;
+  height: 31px;
+  background: url(../../img/icon-quote-2.png);
+  position: relative;
+  right: 70px;
+  top: 30px;
+}
+.text-slide-testimonials .text-section:after {
+  content: "";
+  background-repeat: no-repeat;
+  display: block;
+  width: 44px;
+  height: 31px;
+  background: url(../../img/icon-quote-3.png);
+  position: relative;
+  left: 480px;
+}
+
 .icon-color:hover {
   background-color: #03b6e7;
   border-radius: 50%;
@@ -12052,6 +12125,45 @@ table {
 
 .slick-dotted.slick-slider {
   margin-bottom: 75px;
+}
+
+.img-slide-testimonials img {
+  width: 100%;
+}
+
+.slider-testimonials .slick-dots li button {
+  border: 5px solid #ffffff;
+  width: 102px;
+  height: 102px;
+}
+.slider-testimonials .slick-dots li {
+  width: 102px;
+  height: 102px;
+  margin: 0 20px;
+}
+.slider-testimonials .slick-dots li.slick-active button:before,
+.slider-testimonials .slick-dots li.slick-active button:before {
+  background: transparent;
+}
+.slider-testimonials .slick-dots li.slick-active button:hover,
+.slider-testimonials .slick-dots li.slick-active button {
+  border-color: #f6961b;
+  box-shadow: 0 0 0 10px rgba(255, 197, 136, 0.7);
+}
+.slider-testimonials .slick-dots {
+  bottom: -50px;
+}
+.slider-testimonials #slick-slide-control10 {
+  background: url(../../img/dots-slider.png) no-repeat;
+}
+.slider-testimonials #slick-slide-control11 {
+  background: url(../../img/dots-slider-2.png) no-repeat;
+}
+.slider-testimonials #slick-slide-control12 {
+  background: url(../../img/dots-slider-3.png) no-repeat;
+}
+.slider-testimonials #slick-slide-control13 {
+  background: url(../../img/dots-slider-4.png) no-repeat;
 }
 
 .header-section h2 {

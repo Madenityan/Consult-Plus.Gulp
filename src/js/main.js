@@ -56,17 +56,19 @@ $(document).ready(function() {
 
     });
 
+    $('.slider-testimonials').slick({
+        dots: true,
+        infinite: false,
+        arrows:false,
+        fade:true,
+        adaptiveHeight: true
+        // autoplay:true,
+        // autoplaySpeed:1500
 
-    // $(".card-header .icon-state").on("click",function(){
-    //
-    //     if ($(this).parent().parent().hasClass("show")) {
-    //         $(this).removeClass("icon-active");
-    //     }
-    //
-    //     else {
-    //         $(this).addClass("icon-active");
-    //     }
-    // });
+    });
+
+
+
 
 
 
