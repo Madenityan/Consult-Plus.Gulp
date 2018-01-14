@@ -42,6 +42,12 @@ button:focus {
 
 .btn-consultation {
   margin-top: 50px;
+
+  .btn-section {
+    border: none;
+    cursor: pointer;
+  }
+
 }
 
 .btn-about {
@@ -51,3 +57,4 @@ button:focus {
 .btn-cards {
   padding: 15px 38px;
 }
+
