@@ -106,5 +106,24 @@ textarea:focus {
 }
 
 
+.form-comment {
+  margin-top: 87px;
+
+  input {
+    border-bottom: 1px solid $light-grey;
+    color: $black-color;
+    padding-bottom: 10px;
+  }
+  ::-webkit-input-placeholder {
+    color: $black-color;
+  }
+
+  .textarea-message {
+    border-bottom: 1px solid $light-grey;
+    height: 445px;
+  }
+
+}
+
 
 

@@ -815,11 +815,167 @@
 
 }
 
+.blog-post {
+  padding: 100px 0 100px;
+}
+
+.blog-main {
+
+  img {
+    width: 100%;
+
+  }
+
+  .btn-section {
+    position: absolute;
+    border-radius: 0;
+    padding: 10px 50px 10px 20px;
+    margin: 30px 30px;
+  }
+}
+
+.blog-main-text {
+  padding: 50px 95px;
+}
+
+.list-text {
+  font-family: 'Domine', serif;
+  font-size: 18px;
+  color: $grey;
+  line-height: 25px;
+  padding: 0 0 50px 197px;
+
+  li {
+    width: 100%;
+  }
+
+  .fa-check:before {
+    margin-right: 15px;
+    color:$orange-color;
+  }
+}
+
+.blog-main-bottom {
+  display: flex;
+  margin-bottom: 50px;
+
+  p {
+    padding: 0 95px 0 35px;
+  }
+}
+
+.share {
+  border-radius: 40px;
+  border: 1px solid $light-grey;
+  width: 208px;
+  padding: 20px 20px;
+  text-align: center;
+  float: right;
+}
+
+.icon-share:hover {
+  color: $orange-color;
+}
+
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear:both;
+  margin-bottom: 50px;
+}
 
 
+.related-post {
+  border-top: 1px solid $light-grey;
+  padding: 40px 0 0;
+}
 
 
+.list-blog-page {
+  display: flex;
+  justify-content: space-between;
 
+  li {
+    margin-right: 35px;
+  }
+
+  li:last-child {
+    margin-right: 0;
+  }
+
+  span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: $orange-color;
+  }
+
+  img {
+     width: 100%;
+     margin-bottom: 30px;
+  }
+}
+
+
+.wrapper-comment {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comments-visitors {
+  display: flex;
+}
+
+.comments  {
+  width: 50%;
+  background-color: $color-beige-2;
+  display: flex;
+  justify-content: flex-end;
+  padding: 100px 0 100px;
+}
+
+.form-comments {
+  width: 50%;
+  background-color: $light-blue;
+  padding: 100px 0 100px 50px;
+}
+
+.wrapper-left-comments {
+  width: 562px;
+}
+
+.wrapper-right-comments {
+  width: 562px;
+}
+
+.list-comments {
+
+  li {
+    display: flex;
+    margin-bottom: 70px;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  li:nth-child(2n) {
+    margin-left: 90px;
+  }
+
+
+  img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+  }
+}
+
+.comment-visitor {
+  padding: 0 30px;
+  margin-top: 50px;
+}
 
 
 
