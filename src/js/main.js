@@ -17,6 +17,8 @@ $(document).ready(function() {
         infinite: true,
          dots: false,
          arrows:true,
+         autoplay:true,
+         autoplaySpeed:1500,
          responsive: [
              {
                  breakpoint: 1024,

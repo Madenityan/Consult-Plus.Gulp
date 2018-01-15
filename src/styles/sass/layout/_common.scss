@@ -22,7 +22,7 @@
 
 .features {
   background-color: $light-blue;
-  padding-top:90px;
+  padding-top:100px;
 }
 
 .projects {
@@ -50,6 +50,7 @@
 
 .info {
     text-align: center;
+
     padding: 0 200px;
 }
 
@@ -240,8 +241,6 @@
   font-size: 15px;
   line-height: 25px;
   padding: 0 50px;
-
-
 }
 
 .excerption:after {
@@ -288,6 +287,14 @@
   -moz-box-shadow: 3px -3px 54px 17px rgba(215,228,231,1);
   box-shadow: 3px -3px 54px 17px rgba(215,228,231,1);
 }
+
+
+.blog-img {
+  img {
+    display: block;
+  }
+}
+
 
 .blog-text {
   padding: 40px 60px;
@@ -337,6 +344,7 @@
   width: 58px;
   height: 59px;
   display: block;
+  margin-bottom: 30px;
 }
 
 .contact-email:before {
@@ -978,18 +986,117 @@
 }
 
 
+.blog-masonry {
+  padding: 100px 0 100px;
+}
+
+.icon-blog-masonry {
+
+  .btn-section {
+    position: relative;
+    border-radius: 0;
+    padding: 10px 50px 10px 20px;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .icon-blog {
+    padding: 2px 86px;
+    position: absolute;
+  }
+
+  .icon-large {
+    padding: 2px 112px;
+  }
+}
 
 
 
+.text-card-masonry {
+  margin: 35px 0 80px;
+}
+
+.icon-masonry-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.masonry-cards {
+  padding: 30px 30px 50px;
+  border: 1px solid $light-grey;
+}
 
 
+.row {
+  .cards-img {
+    padding: 0;
+
+  }
+ }
 
 
+.masonry-cards-img {
+  img {
+    width: 100%;
+  }
+}
+
+.cards-img {
+  .btn-section {
+    position: absolute;
+    border-radius: 0;
+    padding: 10px 50px 10px 15px;
+    margin: 23px 0 0 30px;
+    cursor: pointer;
+  }
+
+  .icon-blog {
+    padding: 31px 135px;
+    position: absolute;
+  }
+
+  .icon-large-2 {
+    padding: 31px 155px;
+  }
+}
+
+.wrapper-card-masonry {
+  padding: 30px 30px 50px;
+}
 
 
+.cards-masonry-color {
+  background-color: $blue-color;
 
+  .title, .text-section, .icon-masonry, span {
+    color: $white-color;
+  }
+}
 
+.masonry-img {
+  border: none;
 
+  .icon-masonry-wrapper {
+    margin-top: -80px;
+    padding: 0 30px;
+  }
+
+  .icon-masonry, span {
+    color: $white-color;
+  }
+
+  .masonry-cards-img {
+    padding-bottom: 57px;
+  }
+}
+
+.container-mix {
+  margin-bottom: 70px;
+}
+
+.item:hover {
+  box-shadow: 0 0 47px 14px #dae4e7;
+}
 
 
 
