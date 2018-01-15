@@ -1,0 +1,135 @@
+@media screen and (max-width: 599px) {
+  .container {
+    width: 320px;
+    overflow: hidden;
+  }
+
+
+  .about-page {
+    padding: 40px 0 40px;
+
+    .container {
+      display: block;
+    }
+
+  }
+
+  .info-about {
+    text-align: center;
+
+    div:last-child {
+      padding: 0;
+    }
+
+    div {
+      padding: 0;
+      margin-bottom: 30px;
+    }
+
+  }
+  .textarea-message {
+    width: 100%;
+  }
+
+  .video-about {
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .consultation-about {
+    width: 100%;
+  }
+
+  .cards-about {
+    padding: 40px 0 40px;
+  }
+
+
+  .list-cards-about {
+    display: block;
+
+  .cards-shadow {
+    width: 100%;
+    margin-bottom: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+
+  .container {
+    width: 600px;
+  }
+
+  .about-page {
+    padding: 40px 0 40px;
+
+    .container {
+      display: block;
+    }
+
+  }
+
+  .info-about {
+    text-align: center;
+
+    div:last-child {
+      padding: 0;
+    }
+
+    div {
+      padding: 0;
+      margin-bottom: 30px;
+    }
+
+  }
+  .textarea-message {
+    width: 100%;
+  }
+
+  .video-about {
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .consultation-about {
+    width: 100%;
+  }
+
+  .cards-about {
+    padding: 40px 0 40px;
+  }
+
+
+  .list-cards-about {
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .cards-shadow {
+      width: 358px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1129px) {
+
+  .container {
+    width: 992px;
+  }
+
+  .list-cards-about {
+
+    .cards-shadow {
+      width: 33%;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
