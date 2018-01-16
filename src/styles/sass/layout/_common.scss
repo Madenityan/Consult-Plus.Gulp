@@ -15,6 +15,11 @@
   height: 100vh;
 }
 
+h1 {
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
 .about {
   padding:100px 0 100px;
   text-align: center;
@@ -1102,6 +1107,15 @@
   width: 350px;
   margin-bottom: 35px;
 }
+
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom: 40%;
+  position:relative;
+  height:0;
+}
+
 
 
 

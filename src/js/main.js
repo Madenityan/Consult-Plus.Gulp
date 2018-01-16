@@ -82,9 +82,9 @@ $(document).ready(function() {
         arrows:false,
         fade:true,
         slidesToShow: 1,
-        adaptiveHeight: true
-        // autoplay:true,
-        // autoplaySpeed:1500
+        adaptiveHeight: true,
+        autoplay:true,
+        autoplaySpeed:1500
 
     });
 
@@ -112,8 +112,6 @@ $(document).ready(function() {
             itemSelector: '.item',
             gutter: 35
         });
-
-
 
 });
 

@@ -1,0 +1,39 @@
+@media screen and (max-width: 599px) {
+  .container {
+    width: 320px;
+    overflow: hidden;
+  }
+
+
+  .jobs {
+    padding: 40px 0 40px;
+  }
+
+  .list-jobs {
+
+    .title-jobs {
+      display: block;
+    }
+  }
+
+  .vacancy, .location-job {
+    width: 340px;
+  }
+
+  .btn-job {
+    margin-top: 40px;
+  }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+
+  .container {
+    width: 600px;
+  }
+
+
+  .vacancy, .location-job {
+    width: 130px;
+  }
+}

@@ -96,7 +96,7 @@ gulp.task('watch', function () {
         './src/styles/sass/**/*.scss',
         './src/js/*.js',
         './src/*.html'
-    ], ['build-watch']);
+    ], ['build']);
 
 });
 

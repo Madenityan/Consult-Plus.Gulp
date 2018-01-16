@@ -1,0 +1,51 @@
+@media screen and (max-width: 599px) {
+  .container {
+    width: 320px;
+    overflow: hidden;
+  }
+
+  .information-contact {
+    display: block;
+
+  }
+
+  .map-responsive {
+    margin-top: 40px;
+  }
+
+  .write-to-us {
+    padding: 40px 0 40px;
+  }
+
+  .location {
+    padding: 40px 0 40px;
+  }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+
+  .container {
+    width: 600px;
+  }
+
+  .information-contact {
+    display: block;
+
+  }
+
+  .map-responsive {
+    margin-top: 40px;
+  }
+
+  .write-to-us {
+    padding: 40px 0 40px;
+  }
+
+  .location {
+    padding: 40px 0 40px;
+  }
+
+
+
+}
